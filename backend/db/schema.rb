@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2021_09_30_131532) do
     t.integer "person_id"
   end
 
-  create_table "persons", force: :cascade do |t|
+  create_table "people", force: :cascade do |t|
     t.string "name"
   end
 
